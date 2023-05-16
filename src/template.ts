@@ -23,9 +23,10 @@ const renderDifferentClass = (character: AllCharacters) => {
   <li>Peloteo: ${character.pelotismo.toLocaleString()}</li>`;
   }
 
-  // let _never: never;
+  // Let _never: never;
   // // eslint-disable-next-line no-unused-vars, prefer-const
   // _never = character;
+  // return `Imposible valor`
 };
 
 export const createTemplate = (
