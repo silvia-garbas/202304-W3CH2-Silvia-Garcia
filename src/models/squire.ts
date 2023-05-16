@@ -1,4 +1,5 @@
 import { Character } from './character.ts';
+import { Fighter } from './fighter.ts';
 
 export class Squire extends Character {
   knight;
@@ -8,10 +9,11 @@ export class Squire extends Character {
     name: string,
     house: string,
     age: number,
-    knight: string,
+    emoji: string,
+    knight: Fighter,
     pelotismo: number
   ) {
-    super(name, house, age);
+    super(name, house, age, emoji);
     this.knight = knight;
     this.pelotismo = pelotismo;
     this.communicate = "I'm a loser";

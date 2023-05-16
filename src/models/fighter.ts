@@ -8,10 +8,11 @@ export class Fighter extends Character {
     name: string,
     house: string,
     age: number,
+    emoji: string,
     weapon: string,
     skills: number
   ) {
-    super(name, house, age);
+    super(name, house, age, emoji);
     this.weapon = weapon;
     this.skills = skills;
     this.communicate = 'First hit, then ask';
